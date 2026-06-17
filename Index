@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Molly | Python Developer</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="particles"></div>
+
+<header>
+
+    <div class="hero">
+
+        <h1>MOLLY.exe</h1>
+
+        <div class="typing">
+            <span id="typed"></span>
+        </div>
+
+        <a href="#projects" class="btn">
+            View Projects
+        </a>
+
+    </div>
+
+</header>
+
+<section id="about">
+
+    <h2>About Me</h2>
+
+    <p>
+        Python Developer focused on automation,
+        APIs, workflow systems and business tools.
+    </p>
+
+</section>
+
+<section id="skills">
+
+    <h2>Skills</h2>
+
+    <div class="skill">
+        <span>Python</span>
+        <div class="bar">
+            <div class="fill" style="width:90%"></div>
+        </div>
+    </div>
+
+    <div class="skill">
+        <span>Automation</span>
+        <div class="bar">
+            <div class="fill" style="width:90%"></div>
+        </div>
+    </div>
+
+    <div class="skill">
+        <span>Google APIs</span>
+        <div class="bar">
+            <div class="fill" style="width:80%"></div>
+        </div>
+    </div>
+
+</section>
+
+<section id="projects">
+
+    <h2>Projects</h2>
+
+    <div class="project-grid">
+
+        <div class="card">
+
+            <h3>Brick Borrow Automation</h3>
+
+            <p>
+                Automated order processing,
+                Gmail integration,
+                Google Sheets updates
+                and warehouse workflows.
+            </p>
+
+        </div>
+
+        <div class="card">
+
+            <h3>Star Wars Terminal</h3>
+
+            <p>
+                Cinematic hacking terminal
+                built with Python.
+            </p>
+
+        </div>
+
+        <div class="card">
+
+            <h3>Email Processing System</h3>
+
+            <p>
+                Reads incoming emails and
+                updates business systems automatically.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section id="timeline">
+
+    <h2>Journey</h2>
+
+    <div class="timeline">
+
+        <div class="event">
+            2025 — Joined Brick Borrow
+        </div>
+
+        <div class="event">
+            Built Gmail Automation Systems
+        </div>
+
+        <div class="event">
+            Learned APIs & Integrations
+        </div>
+
+        <div class="event">
+            Built Warehouse Automation Tools
+        </div>
+
+    </div>
+
+</section>
+
+<section id="contact">
+
+    <h2>Contact</h2>
+
+    <p>Email: your@email.com</p>
+    <p>GitHub: github.com/yourname</p>
+
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>
